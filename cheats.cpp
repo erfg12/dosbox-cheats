@@ -44,7 +44,9 @@ std::vector<std::string> explode(std::string const & s, char delim)
 
 int hexToInt(string s) {
 	char * p;
-	long n = strtol(s.c_str(), &p, 16);
+
+	long n = std::stol(s, 0, 16);
+
 	if (*p != 0)
 		return 0;
 	else
