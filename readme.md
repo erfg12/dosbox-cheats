@@ -11,9 +11,9 @@ A cheat system for DOSBox. This technically works for any version. Windows, MacO
     Bytes: a0,0b,c0
 
 # Installation For Compiling
-- Place cheats.h into the "includes" folder, place cheats.cpp into the "src/misc" folder.
+- Place cheats.h into the "includes" folder, place cheats.cpp into the "src/misc" folder _("src/gui" if using DOSBox-x)_.
 - If using VS.net to compile, right click on Header Files > Add Existing Item > cheats.h, right click on Source Files > Add Existing Item > cheats.cpp
-- If using MinGW to compile, edit src/misc/Makefile.am add cheats.cpp
+- If using MinGW to compile, edit src/misc/Makefile.am _("src/gui/Makefile.am" if using DOSBox-x)_ and add cheats.cpp
 - Follow the [Integration](https://github.com/erfg12/dosbox-cheats/wiki/Integration) wiki document for the rest.
 
 # How To Find Cheats
