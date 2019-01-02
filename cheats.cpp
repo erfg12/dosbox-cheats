@@ -75,7 +75,7 @@ void cheat::ParseCheatFile(const char *game) {
 
 	string gegevens;
 	while (getline(in, gegevens)) {
-		trim(gegevens);
+		//trim(gegevens);
 		if (!gegevens.size()) {
 			continue;
 		}
