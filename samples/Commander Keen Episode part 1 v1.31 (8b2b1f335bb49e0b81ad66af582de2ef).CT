@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="27">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"membase"</Description>
+      <LastState Value="27591004" RealAddress="130BE040"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>membase</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"raygun ammo"</Description>
+      <LastState Value="99" Activated="1" RealAddress="130DD5A8"/>
+      <VariableType>2 Bytes</VariableType>
+      <Address>membase</Address>
+      <Offsets>
+        <Offset>1F568</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"score"</Description>
+      <LastState Value="999999" Activated="1" RealAddress="130DD5AA"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>membase</Address>
+      <Offsets>
+        <Offset>1F56A</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"low gravity (freeze at 0)"</Description>
+      <LastState Value="00" Activated="1" RealAddress="130D99DC"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>membase</Address>
+      <Offsets>
+        <Offset>1B99C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"lives"</Description>
+      <LastState Value="4" RealAddress="130DD5A6"/>
+      <VariableType>2 Bytes</VariableType>
+      <Address>membase</Address>
+      <Offsets>
+        <Offset>1F566</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
