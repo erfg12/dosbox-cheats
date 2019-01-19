@@ -64,7 +64,12 @@ void cheat::ParseCheatFile(const char *game) {
 	string s(game);
 	string path;
 	Cross::GetPlatformConfigDir(path);
-	string file = path + "cheats\\" + s + ".cht";
+	string sep = "/";
+#if (defined(WIN32))
+	sep = "\\";
+#endif
+	string file = path + "cheats" + sep + s + ".cht";
+	//LOG_MSG("CHEAT CFG FILE: %s", file.c_str());
 	ifstream in(file);
 	if (!in) return;
 	if (curCheat.compare(string(game)) == 0) return; // already loaded
