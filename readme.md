@@ -25,6 +25,6 @@ A cheat system for DOSBox. This technically works for any version. Windows, MacO
 - The address shown after "P->" is the current temporary address MemBase variable is pointing to. This is your virtual memory base. Use Cheat Engine to find an in ingame value.
 - Once you find an ingame value, take the address it found and subtract it by the virtual memory base address. This will give you the offset you want to use for a .cht file.
 
-If you have any questions, please ask us in our Discord: https://discord.gg/9d7fB5a
+If you have any questions, please ask us in our Discord: https://discord.gg/ddhGacy
 
 If you would like to contribute or make changes, please fork this source and send a PR.
